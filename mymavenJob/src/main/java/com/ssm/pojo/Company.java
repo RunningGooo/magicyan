@@ -17,9 +17,9 @@ public class Company {
 
     private Integer staff;//企业人数
 
-    private Integer capital;//
+    private Integer capital;//注册资金
 
-    private Integer captialtype;
+    private Integer captialtype;//
 
     private String email;//公司邮箱
 
@@ -27,7 +27,7 @@ public class Company {
 
     private Byte showing;
 
-    private Integer permission;
+    private Integer permission;//权限
 
     public String getId() {
         return id;
