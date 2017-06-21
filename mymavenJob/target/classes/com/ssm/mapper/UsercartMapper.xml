@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssm.mapper.UsercartMapper">
+  	<!-- 查找账号是否存在 -->
+  	<select id="findUserByAccount" resultType="user">
+  		SELECT * FROM user WHERE user.account=#{account};
+  	</select>
+</mapper>
